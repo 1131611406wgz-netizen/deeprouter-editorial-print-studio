@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepRouter 编辑艺术印刷工作室"
+  short_description: "通过 DeepRouter 将照片转为复古编辑印刷插画"
+  default_prompt: "Use $deeprouter-editorial-print-studio to transform my uploaded photo into a vintage editorial print illustration through DeepRouter."
