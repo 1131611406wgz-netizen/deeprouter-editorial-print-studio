@@ -1,0 +1,46 @@
+{
+  "style": {
+    "direction": "vintage editorial illustration, Japanese archive print, mid-century modern graphic, handmade risograph artwork, museum specimen sheet",
+    "palette": ["warm beige", "terracotta red", "mustard yellow", "olive green", "forest green", "dusty orange", "dark navy blue", "earthy brown", "soft grey", "faded cream"],
+    "texture": ["rough ink texture", "uneven pigment coverage", "subtle paper grain", "broad dry-brush and brayer sweeps", "local worn edges and ink skips", "slight print misregistration", "imperfect handmade printing artifacts"],
+    "avoid": ["photorealism", "detailed rendering", "realistic food textures", "glossy surfaces", "glossy highlights", "realistic material rendering", "smooth digital gradients", "3D", "clean vector finish", "cartoon outlines", "excessive decorative elements", "neon", "high-saturation digital colors", "generic circles", "generic squares", "generic horizontal lines", "watermark"]
+  },
+  "classes": {
+    "food": {
+      "coverage": "30-40% of the canvas, 35% target",
+      "preserve": "food identity, vessel shape, arrangement, original composition, and colour relationships",
+      "composition": "show the complete food or vessel group with abundant quiet negative space; never a full-bleed ecommerce hero shot",
+      "decorators": {"ingredient": "ingredient cross-sections or recipe marks", "steam": "soft steam curves", "utensil": "utensil geometry", "bowl": "vessel-rim fragment", "noodle": "loose noodle-curve rhythm", "corn": "kernel rhythm marks", "chopstick": "paired utensil-line fragment", "spoon": "spoon-profile stroke", "table": "wood-grain brush plane"}
+    },
+    "beverage": {
+      "coverage": "30-40% of the canvas, 35% target",
+      "preserve": "drink identity, container silhouette, liquid colour, arrangement, and original composition",
+      "composition": "show the complete drink or vessel group with abundant quiet negative space; never a full-bleed ecommerce hero shot",
+      "decorators": {"steam": "soft steam curves", "ice": "subtle ice facets", "citrus": "citrus-section marks", "cup": "container profile lines", "glass": "vessel-rim fragment", "straw": "straw-line accent"}
+    },
+    "landscape": {
+      "coverage": "organic illustrated scene occupies 35-50%; off-white textured paper occupies 50-65% and remains asymmetrically distributed",
+      "preserve": "landforms, scene perspective, natural contours, and colour relationships",
+      "composition": "do not create a rectangular photo frame or a full-bleed landscape; use an organic irregular silhouette, asymmetric open space, local extension, and local dissolution on off-white paper",
+      "decorators": {"mountain": "topographic contour lines", "forest": "botanical leaf patterns", "tree": "branch or leaf marks", "water": "ripple lines", "lake": "thin wave or ripple sequence", "cloud": "fragmented sky swatches", "grass": "ragged grass edge", "flower": "small botanical stem mark", "chair": "simple furniture structure-line motif", "table": "table-plane or grain-line motif", "vase": "small vessel contour mark", "railing": "thin architectural rail-line fragment", "bird": "tiny atmosphere-led bird glyphs"}
+    },
+    "architecture": {
+      "coverage": "medium-scale organic brush-print field occupies 50-60%; off-white textured paper occupies 40-50% and remains visibly distributed",
+      "preserve": "building geometry, perspective, structural rhythm, and colour relationships",
+      "composition": "do not create a rectangular photo frame or a full-bleed architecture scene; place a compact structure study on off-white paper, use an organic irregular silhouette around real edges with asymmetric open space",
+      "decorators": {"building": "architectural structure lines", "window": "window-grid detail", "bridge": "structural span marks", "city": "urban plan-line fragments"}
+    },
+    "portrait": {
+      "coverage": "40-45% of the canvas, 42% target",
+      "preserve": "facial identity, body structure, pose, clothing relationships, and original framing",
+      "composition": "keep the figure complete and calm within the source composition; do not make a beauty-retouch or fashion-ad hero crop",
+      "decorators": {"clothing": "garment seam and textile marks", "hair": "hair-mass brush fragment", "flower": "observed botanical marks", "book": "observed page-edge marks", "chair": "observed furniture line fragment"}
+    },
+    "product": {
+      "coverage": "30-40% of the canvas, 35% target",
+      "preserve": "product silhouette, material cues, structure, functional details, and readable label details",
+      "composition": "show the complete product with measured negative space; do not create an oversized advertising pack shot",
+      "decorators": {"bottle": "container profile and cap marks", "camera": "lens-ring diagrams", "tool": "functional line diagrams", "package": "package-fold marks", "box": "package-plane fragment", "label": "label-block rhythm"}
+    }
+  }
+}

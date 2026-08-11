@@ -1,0 +1,10 @@
+{
+  "type": "food",
+  "subject_position": "center",
+  "subject_ratio": "68%",
+  "background_type": "indoor",
+  "colors": ["orange", "beige"],
+  "has_people": false,
+  "has_text": false,
+  "elements": ["pasta", "plate", "fork"]
+}

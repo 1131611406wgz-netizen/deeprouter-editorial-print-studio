@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Editorial Image Analysis",
+  "type": "object",
+  "required": ["type", "subject_position", "subject_ratio", "background_type", "colors", "has_people", "has_text", "elements"],
+  "properties": {
+    "type": {"type": "string", "enum": ["food", "beverage", "landscape", "architecture", "portrait", "product"]},
+    "subject_position": {"type": "string", "enum": ["upper-left", "upper-center", "upper-right", "center-left", "center", "center-right", "lower-left", "lower-center", "lower-right", "distributed"]},
+    "subject_ratio": {"type": "string", "pattern": "^(100|[1-9]?[0-9])%$"},
+    "background_type": {"type": "string", "enum": ["natural", "urban", "indoor", "studio", "plain", "mixed", "unknown"]},
+    "colors": {"type": "array", "minItems": 1, "maxItems": 6, "items": {"type": "string"}},
+    "has_people": {"type": "boolean"},
+    "has_text": {"type": "boolean"},
+    "elements": {"type": "array", "minItems": 1, "maxItems": 12, "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

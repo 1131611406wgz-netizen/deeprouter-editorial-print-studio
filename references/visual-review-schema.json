@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Editorial Illustration Visual Review",
+  "type": "object",
+  "required": ["rectangular_photo", "subject_oversized", "negative_space_insufficient", "composition_preserved", "decorations_template_like", "decorations_source_linked", "print_texture_present", "overly_realistic", "overly_abstract", "detail_loss_excessive", "detail_density_excessive", "fragmentation_excessive", "edges_too_constrained", "skin_tone_drift", "pass"],
+  "properties": {
+    "rectangular_photo": {"type": "boolean"},
+    "subject_oversized": {"type": "boolean"},
+    "negative_space_insufficient": {"type": "boolean"},
+    "composition_preserved": {"type": "boolean"},
+    "decorations_template_like": {"type": "boolean"},
+    "decorations_source_linked": {"type": "boolean"},
+    "print_texture_present": {"type": "boolean"},
+    "overly_realistic": {"type": "boolean"},
+    "overly_abstract": {"type": "boolean"},
+    "detail_loss_excessive": {"type": "boolean"},
+    "detail_density_excessive": {"type": "boolean"},
+    "fragmentation_excessive": {"type": "boolean"},
+    "edges_too_constrained": {"type": "boolean"},
+    "skin_tone_drift": {"type": "boolean"},
+    "pass": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

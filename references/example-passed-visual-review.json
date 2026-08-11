@@ -1,0 +1,17 @@
+{
+  "rectangular_photo": false,
+  "subject_oversized": false,
+  "negative_space_insufficient": false,
+  "composition_preserved": true,
+  "decorations_template_like": false,
+  "decorations_source_linked": true,
+  "print_texture_present": true,
+  "overly_realistic": false,
+  "overly_abstract": false,
+  "detail_loss_excessive": false,
+  "detail_density_excessive": false,
+  "fragmentation_excessive": false,
+  "edges_too_constrained": false,
+  "skin_tone_drift": false,
+  "pass": true
+}

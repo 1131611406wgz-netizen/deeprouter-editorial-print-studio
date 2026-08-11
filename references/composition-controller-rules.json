@@ -1,0 +1,8 @@
+{
+  "food": {"target_ratio": 35, "max_ratio": 40, "preserve": "preserve the original food, container, and arrangement relationship"},
+  "beverage": {"target_ratio": 35, "max_ratio": 40, "preserve": "preserve the original drink, vessel, and arrangement relationship"},
+  "product": {"target_ratio": 35, "max_ratio": 40, "preserve": "preserve the product silhouette, material cues, and structural relationship"},
+  "portrait": {"target_ratio": 42, "max_ratio": 45, "preserve": "preserve the person's identity, body structure, pose, and clothing relationship"},
+  "landscape": {"preserve": "preserve source atmosphere, spatial depth, landform relationships, perspective, and natural contours within an organic handmade silhouette"},
+  "architecture": {"preserve": "preserve building structure and perspective inside a medium-scale directional brush-print field with organic bristle-ended edges"}
+}

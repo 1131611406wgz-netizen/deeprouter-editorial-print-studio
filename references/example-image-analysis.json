@@ -1,0 +1,10 @@
+{
+  "type": "landscape",
+  "subject_position": "center",
+  "subject_ratio": "65%",
+  "background_type": "natural",
+  "colors": ["blue", "green"],
+  "has_people": false,
+  "has_text": false,
+  "elements": ["mountain", "cloud", "water"]
+}
