@@ -1,4 +1,4 @@
-# DeepRouter Editorial Print Studio
+# DeepRouter Print Studio
 
 一个通过 Codex 和 DeepRouter 将照片转换为复古编辑印刷插画的 Skill。
 
@@ -18,19 +18,19 @@
 在 GitHub 仓库页面复制仓库地址，然后执行：
 
 ```bash
-git clone https://github.com/1131611406wgz-netizen/deeprouter-editorial-print-studio.git ~/.codex/skills/deeprouter-editorial-print-studio
+git clone https://github.com/1131611406wgz-netizen/deeprouter-print-studio.git ~/.codex/skills/deeprouter-print-studio
 ```
 
 如果当前 Python 环境没有依赖：
 
 ```bash
-python3 -m pip install -r ~/.codex/skills/deeprouter-editorial-print-studio/requirements.txt
+python3 -m pip install -r ~/.codex/skills/deeprouter-print-studio/requirements.txt
 ```
 
 重启 Codex 后，通过以下方式调用：
 
 ```text
-$deeprouter-editorial-print-studio
+$deeprouter-print-studio
 ```
 
 ## API 配置
@@ -58,7 +58,7 @@ python3 scripts/deeprouter_image.py --show-config
 上传一张有权使用的图片，然后输入：
 
 ```text
-使用 $deeprouter-editorial-print-studio，把这张照片转换成复古编辑印刷插画，保持原图画幅和构图。
+使用 $deeprouter-print-studio，把这张照片转换成复古编辑印刷插画，保持原图画幅和构图。
 ```
 
 Skill 会依次执行：

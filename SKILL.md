@@ -1,9 +1,9 @@
 ---
-name: deeprouter-editorial-print-studio
+name: deeprouter-print-studio
 description: Transform user-uploaded food, beverage, landscape, architecture, portrait, or product photos into vintage editorial print illustrations through the OpenAI-compatible DeepRouter image endpoint at https://deeprouter.top/v1. Use when Codex must generate or edit bitmap images with DeepRouter while preserving source aspect ratio, composition, subject relationships, and Japanese archive print, mid-century graphic, risograph, specimen-sheet, or handmade editorial-art direction.
 ---
 
-# DeepRouter Editorial Print Studio
+# DeepRouter Print Studio
 
 Run this as a multi-stage generation system, not as a single filter prompt:
 
