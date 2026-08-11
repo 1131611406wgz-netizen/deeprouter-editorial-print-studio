@@ -18,7 +18,7 @@
 在 GitHub 仓库页面复制仓库地址，然后执行：
 
 ```bash
-git clone <repository-url> ~/.codex/skills/deeprouter-editorial-print-studio
+git clone https://github.com/1131611406wgz-netizen/deeprouter-editorial-print-studio.git ~/.codex/skills/deeprouter-editorial-print-studio
 ```
 
 如果当前 Python 环境没有依赖：
